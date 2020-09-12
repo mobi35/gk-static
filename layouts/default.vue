@@ -1,7 +1,7 @@
 <template>
   <div>
       <GKHeader/>
-     
+
     <Nuxt />
 
      <GKFooter/>
@@ -14,7 +14,7 @@
 import GKHeader from '~/components/Client/Navigation/GKHeader'
 import GKFooter from '~/components/Client/Navigation/GKFooter'
 export default {
-  
+
 
     components:{
       GKHeader,GKFooter

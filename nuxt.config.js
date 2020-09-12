@@ -38,7 +38,8 @@ export default {
   plugins: [
     '~/plugins/swipe.js'
    ,
-    { src: '~/plugins/carousel3D.client.js', ssr: false }
+    { src: '~/plugins/carousel3D.client.js', ssr: false },
+    { src: '~/plugins/select.js', ssr: false }
   ],
   /*
   ** Auto import components

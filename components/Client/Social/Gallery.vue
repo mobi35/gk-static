@@ -2,7 +2,7 @@
 
 <div class=" flex  items-center flex-wrap mt-4 flex-col">
   <div class="  m-auto mt-4 ">
-    <h1 class="md:w-gk-line530px text-lg md:text-4xl font-sans text-center tracking-widest border-t pt-2  mobile:mx-40 border-black" >GALLERY</h1>
+    <h1 class="md:w-gk-line530px text-lg md:text-4xl font-sans text-center tracking-widest border-t pt-2   border-black" >GALLERY</h1>
 
     <p class="font-body text-xs md:text-base text-center">SHOP OUR TOP OF THE LINE CROWD'S FAVORITE PICKS</p>
     </div>

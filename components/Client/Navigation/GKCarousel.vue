@@ -1,10 +1,11 @@
 <template>
-<div class="mobile:max-h-40" style="height:600px; width:100%;">   <swiper   ref="mySwiper" :options="swiperOptions">
-    <swiper-slide > <img style="height:600px; width:100%;"  src="~/assets/GK.jpg"/>  </swiper-slide>
-    <swiper-slide><img  style="height:600px; width:100%;" src="~/assets/GK.jpg"/></swiper-slide>
-    <swiper-slide><img style="height:600px; width:100%;"  src="~/assets/GK.jpg"/></swiper-slide>
-    <swiper-slide><img style="height:600px; width:100%;"  src="~/assets/GK.jpg"/></swiper-slide>
-    <swiper-slide><img style="height:600px; width:100%;"  src="~/assets/GK.jpg"/></swiper-slide>
+<div  >
+  <swiper class="w-full md:h-700 object-center" ref="mySwiper" :options="swiperOptions">
+    <swiper-slide > <img class="w-full "    src="~/assets/GK.jpg"/>  </swiper-slide>
+    <swiper-slide><img class="w-full " src="~/assets/GK.jpg"/></swiper-slide>
+    <swiper-slide><img class="w-full"  src="~/assets/GK.jpg"/></swiper-slide>
+    <swiper-slide><img  class="w-full" src="~/assets/GK.jpg"/></swiper-slide>
+    <swiper-slide><img  class="w-full"  src="~/assets/GK.jpg"/></swiper-slide>
     <div class="swiper-pagination" slot="pagination"></div>
   </swiper>
   </div>
@@ -18,7 +19,7 @@
         swiperOptions: {
           cubeEffect: {
     slideShadows: true,
-  },
+  }, centeredSlides: true,
 
         slidesPerView: 1,
 

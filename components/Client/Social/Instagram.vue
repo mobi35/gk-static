@@ -1,7 +1,7 @@
 <template>
   <div class="gallery flex  items-center flex-wrap mt-4 flex-col">
   <div class="  m-auto mt-4 ">
-    <h1 class="text-lg md:text-4xl font-sans  text-center tracking-widest border-t pt-2 md:w-gk-line530px  mobile:mx-40 border-black">INSTAGRAM</h1>
+    <h1 class="text-lg md:text-4xl font-sans  text-center tracking-widest border-t pt-2 md:w-gk-line530px   border-black">INSTAGRAM</h1>
 
     <p class="font-body text-xs md:text-base text-center">Please follow <span class="text-blue-600"> @gkclothing2019 </span> </p>
     </div>
