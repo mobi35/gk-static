@@ -1,12 +1,12 @@
 <template>
 
 
-<div class=" h-screen">
+<div class=" h-auto">
 
 <div class="flex justify-center  flex-wrap  mt-20">
 
   <div  class="image max-h-40 mx-10"><div class="mt-10"></div>
-  <img class="  h-600" src="~/assets/products/p3.jpg"/>
+  <img class="   md:h-600" src="~/assets/products/p3.jpg"/>
   </div>
 
   <div class="description mx-10 justify-start">
@@ -30,6 +30,8 @@
  <div class=" max-w-lg ">
    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic
  </div>
+
+
   </div>
 
 
